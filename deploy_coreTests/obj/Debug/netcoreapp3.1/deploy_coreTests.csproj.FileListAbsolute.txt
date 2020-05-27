@@ -93,7 +93,6 @@ C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_coreTests\bin\Debug\net
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_coreTests\bin\Debug\netcoreapp3.1\deploy_core.dll
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_coreTests\bin\Debug\netcoreapp3.1\deploy_core.pdb
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_coreTests\obj\Debug\netcoreapp3.1\deploy_coreTests.csprojAssemblyReference.cache
-C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_coreTests\obj\Debug\netcoreapp3.1\deploy_coreTests.csproj.CoreCompileInputs.cache
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_coreTests\obj\Debug\netcoreapp3.1\deploy_coreTests.AssemblyInfoInputs.cache
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_coreTests\obj\Debug\netcoreapp3.1\deploy_coreTests.AssemblyInfo.cs
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_coreTests\obj\Debug\netcoreapp3.1\deploy_coreTests.csproj.CopyComplete
@@ -102,3 +101,6 @@ C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_coreTests\obj\Debug\net
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_coreTests\obj\Debug\netcoreapp3.1\deploy_coreTests.genruntimeconfig.cache
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_coreTests\bin\Debug\netcoreapp3.1\Utities.dll
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_coreTests\bin\Debug\netcoreapp3.1\Utities.pdb
+C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_coreTests\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_coreTests\bin\Debug\netcoreapp3.1\NSubstitute.dll
+C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_coreTests\obj\Debug\netcoreapp3.1\deploy_coreTests.csproj.CoreCompileInputs.cache
