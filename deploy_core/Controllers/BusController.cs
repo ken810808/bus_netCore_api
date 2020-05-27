@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using deploy_core.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Utities.NetTools;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -31,10 +32,8 @@ namespace deploy_core.Controllers
         [HttpGet]
         public IActionResult GetBus()
         {
-            var PTXFunction = new PTX();
-
-            var Result = PTXFunction.Get("七張站",10, 1);
-
+            var PTXFunction = new PTX(new MyRestSharp());
+            var Result = PTXFunction.Get("七張站",1, 1);
             return Ok(Result);
         }
     }

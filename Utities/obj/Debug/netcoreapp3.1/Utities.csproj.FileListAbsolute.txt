@@ -10,9 +10,8 @@ C:\Users\Ken\Desktop\side-project\deploy_core\Utities\obj\Debug\netcoreapp3.1\Ut
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\Utities\bin\Debug\netcoreapp3.1\Utities.deps.json
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\Utities\bin\Debug\netcoreapp3.1\Utities.dll
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\Utities\bin\Debug\netcoreapp3.1\Utities.pdb
-C:\Users\Ken\Desktop\side-project\bus_netCore_api\Utities\obj\Debug\netcoreapp3.1\Utities.csprojAssemblyReference.cache
-C:\Users\Ken\Desktop\side-project\bus_netCore_api\Utities\obj\Debug\netcoreapp3.1\Utities.csproj.CoreCompileInputs.cache
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\Utities\obj\Debug\netcoreapp3.1\Utities.AssemblyInfoInputs.cache
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\Utities\obj\Debug\netcoreapp3.1\Utities.AssemblyInfo.cs
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\Utities\obj\Debug\netcoreapp3.1\Utities.dll
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\Utities\obj\Debug\netcoreapp3.1\Utities.pdb
+C:\Users\Ken\Desktop\side-project\bus_netCore_api\Utities\obj\Debug\netcoreapp3.1\Utities.csproj.CoreCompileInputs.cache

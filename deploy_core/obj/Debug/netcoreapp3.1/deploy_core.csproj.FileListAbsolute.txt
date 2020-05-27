@@ -44,3 +44,5 @@ C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_core\obj\Debug\netcorea
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_core\obj\Debug\netcoreapp3.1\deploy_core.pdb
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_core\obj\Debug\netcoreapp3.1\deploy_core.genruntimeconfig.cache
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_core\obj\Debug\netcoreapp3.1\deploy_core.csprojAssemblyReference.cache
+C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_core\bin\Debug\netcoreapp3.1\Utities.dll
+C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_core\bin\Debug\netcoreapp3.1\Utities.pdb

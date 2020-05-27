@@ -10,6 +10,19 @@
         "runtime": {
           "lib/netstandard2.0/RestSharp.dll": {}
         }
+      },
+      "Utities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "RestSharp": "106.11.4"
+        },
+        "compile": {
+          "bin/placeholder/Utities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utities.dll": {}
+        }
       }
     }
   },
@@ -29,11 +42,17 @@
         "restsharp.nuspec",
         "restsharp.png"
       ]
+    },
+    "Utities/1.0.0": {
+      "type": "project",
+      "path": "../Utities/Utities.csproj",
+      "msbuildProject": "../Utities/Utities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "RestSharp >= 106.11.4"
+      "RestSharp >= 106.11.4",
+      "Utities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -61,7 +80,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Ken\\Desktop\\side-project\\bus_netCore_api\\Utities\\Utities.csproj": {
+              "projectPath": "C:\\Users\\Ken\\Desktop\\side-project\\bus_netCore_api\\Utities\\Utities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -100,3 +100,5 @@ C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_coreTests\obj\Debug\net
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_coreTests\obj\Debug\netcoreapp3.1\deploy_coreTests.dll
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_coreTests\obj\Debug\netcoreapp3.1\deploy_coreTests.pdb
 C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_coreTests\obj\Debug\netcoreapp3.1\deploy_coreTests.genruntimeconfig.cache
+C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_coreTests\bin\Debug\netcoreapp3.1\Utities.dll
+C:\Users\Ken\Desktop\side-project\bus_netCore_api\deploy_coreTests\bin\Debug\netcoreapp3.1\Utities.pdb

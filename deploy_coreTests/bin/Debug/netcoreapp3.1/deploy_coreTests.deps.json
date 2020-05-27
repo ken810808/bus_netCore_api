@@ -1081,10 +1081,19 @@
       },
       "deploy_core/1.0.0": {
         "dependencies": {
-          "RestSharp": "106.11.4"
+          "RestSharp": "106.11.4",
+          "Utities": "1.0.0"
         },
         "runtime": {
           "deploy_core.dll": {}
+        }
+      },
+      "Utities/1.0.0": {
+        "dependencies": {
+          "RestSharp": "106.11.4"
+        },
+        "runtime": {
+          "Utities.dll": {}
         }
       }
     }
@@ -1712,6 +1721,11 @@
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
     "deploy_core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
