@@ -42,11 +42,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ken\\Desktop\\side-project\\deploy_core\\deploy_core\\deploy_core.csproj",
+      "projectUniqueName": "C:\\Users\\Ken\\Desktop\\side-project\\bus_netCore_api\\deploy_core\\deploy_core.csproj",
       "projectName": "deploy_core",
-      "projectPath": "C:\\Users\\Ken\\Desktop\\side-project\\deploy_core\\deploy_core\\deploy_core.csproj",
+      "projectPath": "C:\\Users\\Ken\\Desktop\\side-project\\bus_netCore_api\\deploy_core\\deploy_core.csproj",
       "packagesPath": "C:\\Users\\Ken\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ken\\Desktop\\side-project\\deploy_core\\deploy_core\\obj\\",
+      "outputPath": "C:\\Users\\Ken\\Desktop\\side-project\\bus_netCore_api\\deploy_core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ken\\AppData\\Roaming\\NuGet\\NuGet.Config",

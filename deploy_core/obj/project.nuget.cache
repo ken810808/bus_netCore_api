@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gyLOq2SV6mA+3CeaAPBCbq7D25OkWcww/fmeRncvjkv4O5HvN620cYsdUmmYdXN3stOpkSgh40r9im6t6SPFwA==",
+  "dgSpecHash": "RFV4zqguQ9bD2btcU36A9Qo5veCo5+cYsTSEIduqnhY9s3O7E1eCF1C42ggCqn4QddCzmoHdCUdzWt3rPFef+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ken\\Desktop\\side-project\\deploy_core\\deploy_core\\deploy_core.csproj",
+  "projectFilePath": "C:\\Users\\Ken\\Desktop\\side-project\\bus_netCore_api\\deploy_core\\deploy_core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ken\\.nuget\\packages\\restsharp\\106.11.4\\restsharp.106.11.4.nupkg.sha512"
   ],

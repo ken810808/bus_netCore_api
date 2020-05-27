@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HLZAUuooMR7T1BALf3vdNzlMXABY/Y+AvCvsljqeqS04yMcmyHvFgpdnlGH92y4AN/SXan58ZMNaHiv5hiL3GQ==",
+  "dgSpecHash": "uaxwfkypETmf570j8dWZxezkDtUYRbjTnw122OOEXN2wP3w345ujrtAWw4EjsZaDNgQWNzItNTCOKGhcG8+hlw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ken\\Desktop\\side-project\\deploy_core\\Utities\\Utities.csproj",
+  "projectFilePath": "C:\\Users\\Ken\\Desktop\\side-project\\bus_netCore_api\\Utities\\Utities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

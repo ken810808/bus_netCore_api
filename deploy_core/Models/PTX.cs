@@ -1,4 +1,5 @@
 ﻿using RestSharp;
+using RestSharp.Authenticators;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,42 +12,29 @@ namespace deploy_core.Models
     public class PTX
     {
         /// <summary>
-            /// 取得巴士路線資料
-            /// </summary>
-            /// <param name="city">縣市名稱</param>
-            /// <param name="routeName">巴士路線名稱</param>
-            /// <returns></returns>
-        public BusRouteDTO Get(string city, string routeName)
+        /// 取得捷運車站設施資料
+        /// </summary>
+        /// <param name="query">關鍵字查詢</param>
+        /// <param name="limit">筆數</param>
+        /// <param name="offset">位移筆數</param>
+        /// <returns></returns>
+        public List<Infrastructure> Get(string query, int limit, int offset)
+        
         {
-            BusRouteDTO Result = null;
+            List<Infrastructure> Result = null;
 
             //Use RestSharp Call API
-            var client = new RestClient($"http://ptx.transportdata.tw/MOTC/v2/Bus/StopOfRoute/City/{city}/{routeName}?%24top=1&%24format=JSON");
+            var client = new RestClient($"https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=9099acc7-9b9e-4a99-8c0f-3c85cd578a97&q={query}&limit={limit}&offset={offset}");
             var request = new RestRequest(Method.GET);
             request.AddHeader("cache-control", "no-cache");
             IRestResponse response = client.Execute(request);
-
+                        
             if (response.StatusCode == HttpStatusCode.OK)
             {
-                var APIResult = JsonSerializer.Deserialize<List<PTXBusRouteResult>>(response.Content);
-
-                if (APIResult != null && APIResult.Count > 0)
+                var APIResult = JsonSerializer.Deserialize<MRTResult>(response.Content);
+                if (APIResult != null && APIResult.result.count > 0)
                 {
-                    var Route = APIResult.First();
-                    Result = new BusRouteDTO
-                    {
-                        Name = Route.RouteName.Zh_tw,
-                        BusStops = new List<BusRouteDTO.BusStop>()
-                    };
-
-                    foreach (var stop in Route.Stops)
-                    {
-                        Result.BusStops.Add(new BusRouteDTO.BusStop
-                        {
-                            ID = stop.StopUID,
-                            Name = stop.StopName.Zh_tw
-                        });
-                    }
+                    return APIResult.result.results;
                 }
             }
 

@@ -3836,11 +3836,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ken\\Desktop\\side-project\\deploy_core\\UtitiesTests\\UtitiesTests.csproj",
+      "projectUniqueName": "C:\\Users\\Ken\\Desktop\\side-project\\bus_netCore_api\\UtitiesTests\\UtitiesTests.csproj",
       "projectName": "UtitiesTests",
-      "projectPath": "C:\\Users\\Ken\\Desktop\\side-project\\deploy_core\\UtitiesTests\\UtitiesTests.csproj",
+      "projectPath": "C:\\Users\\Ken\\Desktop\\side-project\\bus_netCore_api\\UtitiesTests\\UtitiesTests.csproj",
       "packagesPath": "C:\\Users\\Ken\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ken\\Desktop\\side-project\\deploy_core\\UtitiesTests\\obj\\",
+      "outputPath": "C:\\Users\\Ken\\Desktop\\side-project\\bus_netCore_api\\UtitiesTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ken\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3856,8 +3856,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Ken\\Desktop\\side-project\\deploy_core\\Utities\\Utities.csproj": {
-              "projectPath": "C:\\Users\\Ken\\Desktop\\side-project\\deploy_core\\Utities\\Utities.csproj"
+            "C:\\Users\\Ken\\Desktop\\side-project\\bus_netCore_api\\Utities\\Utities.csproj": {
+              "projectPath": "C:\\Users\\Ken\\Desktop\\side-project\\bus_netCore_api\\Utities\\Utities.csproj"
             }
           }
         }

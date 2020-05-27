@@ -24,10 +24,18 @@ namespace deploy_core.Controllers
             _mySectionConfig = mySectionConfig;
         }
 
+        /// <summary>
+        /// 查詢車站出口公車資訊
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
-        public string GetConfig()
+        public IActionResult GetBus()
         {
-            return JsonSerializer.Serialize(_mySectionConfig);
+            var PTXFunction = new PTX();
+
+            var Result = PTXFunction.Get("七張站",10, 1);
+
+            return Ok(Result);
         }
     }
 }

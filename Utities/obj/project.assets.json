@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ken\\Desktop\\side-project\\deploy_core\\Utities\\Utities.csproj",
+      "projectUniqueName": "C:\\Users\\Ken\\Desktop\\side-project\\bus_netCore_api\\Utities\\Utities.csproj",
       "projectName": "Utities",
-      "projectPath": "C:\\Users\\Ken\\Desktop\\side-project\\deploy_core\\Utities\\Utities.csproj",
+      "projectPath": "C:\\Users\\Ken\\Desktop\\side-project\\bus_netCore_api\\Utities\\Utities.csproj",
       "packagesPath": "C:\\Users\\Ken\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ken\\Desktop\\side-project\\deploy_core\\Utities\\obj\\",
+      "outputPath": "C:\\Users\\Ken\\Desktop\\side-project\\bus_netCore_api\\Utities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ken\\AppData\\Roaming\\NuGet\\NuGet.Config",
